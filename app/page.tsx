@@ -1,6 +1,6 @@
 import ResumeDock from "@/components/dock";
 import { GridPattern } from "@/components/magicui/grid-pattern";
-import EasterEggSection from "@/components/sections/easter-egg-section";
+import FavouriteSection from "@/components/sections/favourites-section";
 import ExperienceSection from "@/components/sections/experience-section";
 import HeroSection from "@/components/sections/hero-section";
 import IntroSection from "@/components/sections/intro-section";
@@ -30,7 +30,7 @@ export default function Home() {
 				<ExperienceSection />
 				<ProjectSection />
 				<ThankSection />
-				<EasterEggSection />
+				<FavouriteSection />
 				<ResumeDock />
 			</div>
 		</div>
