@@ -5,20 +5,18 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
 	title: "Ajay Anand | Software Engineer",
 	description:
-		"Hello! I am Sarthak Bharadwaj, a Software Engineer & an entrepreneur, and this is my Portfolio Website! Get to know my skills, experience, projects and much more!",
-	metadataBase: new URL("https://www.sarthakbharadwaj.com"),
+		"Hello! I am Ajay Anand, a Software Engineer and AI Enthusiast passionate about building scalable full-stack applications and intelligent AI systems. Explore my projects, skills, and experience.",
 	openGraph: {
 		type: "website",
-		url: "https://www.sarthakbharadwaj.com/",
-		title: "Sarthak Bharadwaj | Software Engineer",
+		title: "Ajay Anand | Software Engineer",
 		description:
-			"Hello! I am Sarthak Bharadwaj, a Software Engineer & an entrepreneur, and this is my Portfolio Website! Get to know my skills, experience, projects and much more!",
+			"Portfolio of Ajay Anand — Software Engineer, AI Enthusiast, and Full-Stack Developer building AI-powered and scalable systems.",
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Sarthak Bharadwaj | Software Engineer",
+		title: "Ajay Anand | Software Engineer",
 		description:
-			"Hello! I am Sarthak Bharadwaj, a Software Engineer & an entrepreneur, and this is my Portfolio Website! Get to know my skills, experience, projects and much more!",
+			"Explore Ajay Anand’s portfolio — Software Engineer specializing in Full-Stack Development, AI, and Scalable Systems.",
 	},
 };
 
