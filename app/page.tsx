@@ -6,7 +6,7 @@ import HeroSection from "@/components/sections/hero-section";
 import IntroSection from "@/components/sections/intro-section";
 import ProjectSection from "@/components/sections/projects-section";
 import SkillSection from "@/components/sections/skills-section";
-import ThankSection from "@/components/sections/thanks-section";
+import ThankSection from "@/components/sections/achievements-section";
 import { cn } from "@/lib/utils";
 
 export default function Home() {
