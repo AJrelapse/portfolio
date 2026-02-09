@@ -26,7 +26,7 @@ const FavouriteSection = () => {
 						transition={{ duration: 0.6, delay: 0.1 }}
 					>
 						<AuroraText>
-							Beyond code, here’s what I love 🚀
+							Beyond code, here’s what I love
 						</AuroraText>
 					</motion.h2>
 
@@ -45,7 +45,7 @@ const FavouriteSection = () => {
 						whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
 						viewport={{ once: true }}
 						transition={{ duration: 0.6, delay: 0.2 }}
-						className="mt-30 grid grid-cols-1 md:grid-cols-3 gap-4 w-full"
+						className="mt-5 grid grid-cols-1 md:grid-cols-3 gap-4 w-full"
 					>
 
 					<motion.div className="col-span-1 md:col-span-2 h-[250px] rounded-2xl overflow-hidden border border-white/10 shadow-2xl relative">
