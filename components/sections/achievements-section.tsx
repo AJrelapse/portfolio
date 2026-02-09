@@ -11,7 +11,7 @@ const AchievementSection = () => {
 	return (
 		<div className="w-full mt-90">
 
-			<div ref={targetRef} className="relative h-[150vh]">
+			<div ref={targetRef} className="relative h-[100vh]">
 
 			<div className="sticky top-1/2 -translate-y-1/2 flex justify-center">
 
@@ -25,7 +25,7 @@ const AchievementSection = () => {
 			<div className="xl:px-60 lg:px-30 sm:px-20 px-8 flex flex-col items-center gap-10 pb-20">
 
 					<motion.h2
-						className="text-4xl font-bold text-center mt-90"
+						className="text-4xl font-bold text-center mt-10"
 						initial={{ opacity: 0, y: 20, filter: "blur(5px)" }}
 						whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
 						viewport={{ once: true }}
